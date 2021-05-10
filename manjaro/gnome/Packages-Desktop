@@ -5,14 +5,14 @@ alsa-firmware
 >extra apparmor
 >extra baobab
 >extra dconf-editor
->extra webapp-manager
+webapp-manager
 dmidecode
 gthumb
-evince
+#evince
 >extra manjaro-log-helper
 >basic epiphany
->extra firefox
->extra firefox-gnome-theme-maia
+firefox
+firefox-gnome-theme-maia
 >extra rygel
 >basic gdm
 >extra gdm-plymouth
@@ -28,7 +28,7 @@ gnome-desktop
 gnome-disk-utility
 >extra gnome-font-viewer
 gnome-keyring
-fprintd #need for finger id reader
+#fprintd #need for finger id reader
 >extra gnome-online-accounts
 >extra gnome-contacts
 gnome-screenshot
@@ -112,13 +112,13 @@ numlockx
 >extra onlyoffice-desktopeditors
 openresolv
 #gnome-software-snap
-#>extra flatpak
+flatpak
 #>extra bauh
 pamac-gtk
 #>extra snapd
->extra snapd-glib
->extra pamac-snap-plugin
->extra pamac-flatpak-plugin
+snapd-glib
+pamac-snap-plugin
+pamac-flatpak-plugin
 pamac-gnome-integration
 polkit-gnome
 powertop
@@ -140,12 +140,12 @@ tracker-miners
 noto-fonts               # default font
 #noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 adobe-source-sans-pro-fonts
-adobe-source-han-sans-jp-fonts
-adobe-source-han-sans-kr-fonts
-adobe-source-han-sans-cn-fonts
+#adobe-source-han-sans-jp-fonts
+#adobe-source-han-sans-kr-fonts
+#adobe-source-han-sans-cn-fonts
 qgnomeplatform
-ttf-dejavu
-ttf-droid
+#ttf-dejavu
+#ttf-droid
 ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
@@ -168,13 +168,31 @@ xorg-xinit
 >extra libappindicator-gtk3
 
 #extra depends for file-roller
->extra p7zip
->extra unrar
->extra unace
->extra lrzip
+p7zip
+unrar
+unace
+lrzip
 >extra gtk3-print-backends
 >extra geary
 >extra gnome-calendar
+youtube-dl 
+ffmpeg 
+aria2 
+stacer 
+htop 
+neofetch 
+filezilla 
+eog 
+networkmanager-l2tp 
+smplayer 
+smplayer-skins 
+smplayer-themes 
+mpv 
+vidcutter 
+rhythmbox 
+clipgrab
+gcolor3
+telegram-desktop
 >extra lollypop
 #>extra empathy
 #>extra telepathy
